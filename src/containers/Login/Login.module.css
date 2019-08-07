@@ -1,0 +1,33 @@
+.form,
+.form__error,
+.form__heading,
+.form__login {
+  padding: 10px;
+}
+
+.form {
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.form__error {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+
+.button--login {
+  background: none;
+  border: 1px solid purple;
+  color: purple;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .form {
+    width: 500px;
+  }
+}
